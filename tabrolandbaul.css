@@ -1,0 +1,430 @@
+/*	CODIGOS LEGACY - Whisper table	*/
+.WT1 dd{font-size:15px!important} 
+.Whisper{width:770px;height:600px;display:flex;flex: 2;} 
+.Whisp1{width:550px;height:580px;padding:10px;background:#000;border-right:10px double #1c2732} 
+.Whisp1 h{font-family:Abril Fatface;font-size:25px;} 
+.Whisp1 s1{font-family:arial;font-size:10px} 
+.WT1{font-family:Poppins;font-size:14px;line-height:17px;height:460px;overflow:auto;padding:10px;color:#fff}
+.imgbox{width:300px!important;height:580px!important;position: relative;z-index:0} 
+.imgbox em{margin: 5px 0px 0px 1px;background:#000;padding: 0px 5px 0px 5px;display:inline-block;font-size:11px;font-family:Abril Fatface;z-index:0;position:relative} 
+.Whispdata{position: absolute;left:10px;bottom:30px;padding:10px} 
+.imgbox e{margin-left:15px;font-family:Birthstone;font-size:20px;color:#ffffff;text-shadow: 2px 0px #000000;z-index:9;position:relative}
+.WT1::-webkit-scrollbar{width:2px!important}
+.WT1::-webkit-scrollbar-thumb {background-color:#ffffff;border:1px solid #ffffff}
+.WT1::-webkit-scrollbar-track {background-color:#000000;}
+.light-mode .Whisp1{background:#e8e8e9;} .light-mode .WT1{color:#000!important} .light-mode .Whisp1 h{color:#000!important}
+
+/*	CODIGO ROL #1 - STARS BASIC	*/
+:root{--Starborder3:#677cc0; --Starborder2:#677cc0;}
+.PostStar{width:auto;display: inline-flex;flex-direction: column;flex-wrap: wrap;justify-content:flex-start;padding:20px;border-top:1px solid var(--Starborder2);border-bottom:1px solid var(--Starborder2);border-radius:10px}
+.PostSHead{width:100%;display: flex;flex-direction: row;flex-wrap: wrap;}
+.PostSHead .img{width: 120px;height:120px;border-radius: 100%; border:1px solid var(--Starborder2);padding: 5px;}
+.PostStarTitle{width:80%;padding:40px 20px;margin-left:10px;text-align:right}
+.PostStarTitle span{width:100%;display:block;text-align:left;font-family: georgia;font-weight: 800;font-size:20px;letter-spacing:-2px;border-bottom:1px solid var(--Starborder3);padding:5px 30px}
+.PostStext {padding:20px;font-family:Poppins;font-size:14px;line-height:16px;}
+
+/*	CODIGO ROL #2 - LIVE BASIC*/
+:root {
+--livecolor1: #fff;--livecolor2: #000}
+.LiveT {font-family: Bebas neue; font-size: 30px;margin-bottom: 5px;color: var(--livecolor1)}
+.LiveT sub { font-family: poppins; font-size: 12px; display: block; font-style: italic; color: #ccc}
+.Live::before { content: ""; display: block; width: 1px; height: 40px; background: var(--livecolor1); margin-bottom: 10px}
+.Live { display: block; padding: 10px }
+.Live p { font-family: Poppins; font-size: 14px; line-height: 16px; text-align: justify; text-indent: 10px; color: #ccc}
+.Live dd { border-top: 1px solid var(--livecolor1); border-bottom: 1px solid var(--livecolor1); display: inline-block; color: var(--livecolor1); padding: 10px; margin: 5px }
+#Liveicon { font-size: 40px; color: var(--livecolor1); display: block; margin-bottom: 10px }
+
+/*	CODIGO #3 - THE MOON	*/
+.Moon1 {width: 600px;background: #000;}
+.Moon1 span { color: #fff;font-size: 100px; float: center; position: relative; top: 10px; }
+.Tria {-webkit-clip-path: polygon(75% 0%, 100% 0, 100% 100%, 50% 82%, 0 100%, 0% 0%);clip-path: polygon(75% 0%, 100% 0, 100% 100%, 50% 82%, 0 100%, 0% 0%);}
+.Moon2 {position: relative;left: 0px;top: -5px;font-family: 'Mr Dafoe';font-size: 30px;color: #fff}
+.Smoon { font-family: times; font-size: 10px; text-transform: uppercase; position: relative; left: 0px; top: 0px; color: #fff; border-top: 1px solid #fff;width: 400px }
+.Mcont { width: 500px; font-size: 14px; line-height: 17px; text-align: justify; color: #bfbfbf; padding-bottom: 20px }
+
+/* CODIGO #4 - THE MOON 2.0	*/
+
+.MGod1{width:770px;height:600px;background:#000;display:flex;flex:2;}
+.MgodB2 i{color:var(--moonifontdark);font-size:120px;float:center;position: relative;top:30px;opacity:0.3}
+.MoonT{width:250px;height:600px;-webkit-clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%, 90% 50%);clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%, 90% 50%);position:relative;right:1px;bottom:0px} 
+.MoonG2{margin-bottom:5px;position:relative;left:0px;top:-15px;font-family:'Mr Dafoe';line-height:30px;font-size:25px;color:var(--moonheadtitledark);text-align:center} .MoonC2{font-family:times;font-size:10px;line-height:12px;text-transform:uppercase;position:relative;left:10px;top:-15px;color:var(--moondesdark);border-top:1px solid var(--moondesdark);width:480px;text-align:right;padding-top:4px} .MgodD2{width:480px;height:400px;overflow:auto;text-align:justify;font-family:Poppins;font-size:13px;line-height:17px;text-align:justify;color:var(--moonfont);padding:10px;position:relative;top:-5px}
+.MgodD2 i{font-size:12px;opacity:1;line-height:14px;position:static!important;}
+.MgodD2::-webkit-scrollbar{width:2px!important}
+.MgodD2::-webkit-scrollbar-thumb {background-color:var(--moondesdark);border:1px solid var(-moondesdark)}
+.MgodD2::-webkit-scrollbar-track {background-color:#000000;}
+.MoonB{width:680px!important;}.moonB2{width:440px!important;}
+.MoonB img{width:250px;height:600px}
+
+/*	CODIGO #5 - NOTHING IN THE STORY*/
+.Nothing1 { width: 500px; display: flex; flex-direction: column; justify-content: space-between; }
+.Number1 { width: 500px; height: 300px; }
+.Number2 p { text-indent: 20px; font-family: calibri; font-size: 15px; line-height: 17px; color: #fff; text-align: justify; margin: 1px }
+.Number2 { background: #000; padding: 25px; margin-bottom: -50px }
+.Number3 { width: 500px; height: 150px; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),url(https://i.ibb.co/6yTqvks/Table-22.jpg); clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%); z-index 1}
+.Title1 { width: 350px; background: #000; position: relative; Top: 200px; color: #fff; padding: 15px; font-family: 'MonteCarlo'; font-size: 35px }
+.Title1 h { font-size: 10px; font-family: calibri; letter-spacing: 1px; }
+.Number3 span { color: #fff; position: relative; top: 50px; font-size: 10px; font-family: calibri; letter-spacing: 1px; border-bottom: 1px solid #fff; padding: 5px }
+
+/*	CODIGO #6 - THE RED MAGUS*/
+.Magback { width: 770px; display: flex; flex-direction: row }
+.RedMagus { width: auto!important; height: 700px!important; padding: 40px!important; background: #000 }
+.RedMagus h1 { color: #000; outline: #fff; font-size: 40px; line-height: 40px; font-family: 'Oswald'; font-style: bold; padding-bottom: 0; text-shadow: #fff 0 0 2px; -webkit-font-smoothing: unset;background:none!important}
+.RedMagus h2 { font-size: 10px; color: #fff; border-bottom: none; margin: 0; margin-top: -15px }
+.RedText { height: 480px!important; overflow: auto; font-family: Poppins; font-size: 14px; line-height: 17px; color: #c9c9c9; padding: 10px }
+.RedME { display: flex; flex-direction: row; flex-wrap: wrap }
+.RedME sub { font-size: 10px; padding: 5px; color: #fff; background-color: #7f090e; display: inline-block }
+.RedME c { font-size: 30px; color: #fff; padding: 5px; margin: 0 10px 0 10px; display: inline-block }
+.RedME dt { font-size: 10px; color: #fff; padding: 5px; border-left: 15px solid #7f090e; margin: 5px 20px 0 0; display: inline-block }
+.RedMag {width: 300px!important; background-repeat: no-repeat }
+.RedMag h3 { background:none!important;width: 350px; position: relative; top: 450px; font: bold 12px Sans-Serif; letter-spacing: 2px; text-transform: uppercase; border-left: 15px solid #7f090e; border-bottom: none; color: #fff; padding: 10px 10px; margin: 0 0 10px 0; line-height: 24px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3) }
+.RedText::-webkit-scrollbar { width: 2px!important }
+.RedText::-webkit-scrollbar-thumb { background-color: #7f090e; border: 1px solid #7f090e }
+.RedText::-webkit-scrollbar-track { background-color: #000 }
+
+/*	CODIGO #7 - THE RED MAGUS 2.0	*/
+.RedNMagus { width: 770px!important; padding: 50px; background: #000 }
+.RedNMagus main { color: #000; outline: #fff; font-size: 40px; font-family: 'Oswald'; font-style: bold; margin-bottom: 10px; padding-bottom: 0px; text-shadow: #fff 0px 0px 2px; -webkit-font-smoothing: unset; }
+.RedNMagus subb { font-size: 10px; color: #7f090e }
+.RedNMU { position: relative; top: 180px; font-size: 10px; display: flex; flex-direction: row; flex-direction: row-reverse; margin-right: 5px }
+.RedNMU sub { font-size: 10px; padding: 5px; color: #fff; background-color: #7f090e; text-align: right; margin: 0px 2px }
+.RedNMU c { font-size: 30px; color: #fff; padding: 5px; margin: 0px 5px 0px 5px; text-align: right; }
+.RedNText { font-family: arial; font-size: 14px; line-height: 16px; color: #c9c9c9; padding: 10px }
+.RedNME { display: flex; flex-direction: row }
+.RedNME sub { font-size: 10px; padding: 5px; color: #fff; background-color: #7f090e; }
+.RedNME c { font-size: 30px; color: #fff; padding: 5px; margin: 0px 10px 0px 10px }
+.RedNME dt { font-size: 10px; color: #fff; padding: 5px; border-left: 15px solid #7f090e; margin: 0px 20px 0px 10px }
+.RedNMag { width: 100%; min-height: 250px; background-repeat: no-repeat; background-size: cover; }
+.RedNMag img { width: 100%; min-height: 250px }
+.RedNMag red { position: relative; top: 150px; left: 50px; font: bold 12px Sans-Serif; letter-spacing: 2px; text-transform: uppercase; border-left: 15px solid #7f090e; color: #fff; padding: 10px 10px; margin: 0 0 10px 0; line-height: 24px; border-bottom: 0px }
+
+/*	CODIGO #8 - ELYSIUM	*/
+
+.elysium{display:flex;width:770px}
+.HLT2 {height:700px;width:auto!important;background:#000;padding:40px;} 
+.HLT3{width:300px!important;height:700px;background-size:cover!important}
+.Elytitle{font-family: Galins;color: #fff;text-align: center;margin-top: 10px;font-size: 25px;line-height:30px} .Elytitle e{font-family:calibri;font-size:12px;background:#446d85;padding:5px;}
+.ElyText{height:550px;overflow:auto;padding:5px;color:#fff;text-align:justify;font-family:Poppins;font-size:14px!important;line-height:17px;display:block}
+.ElyText::-webkit-scrollbar-track-piece{background:#000!important} 
+.ElyText e{font-size:10px;background:#446d85;padding:2px 4px;border-radius:4px}
+.ElyData{width: 300px;height: 700px;display: flex; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.30) 50%);} 
+.elysium {
+.ele {align-self: last baseline;width: 250px;padding:20px; height: auto;font-size:20px;font-family:times;color:#fff;text-align:center} 
+.ele e{font-size:12px;background:#446d85;padding:2px 5px;border-radius:10px;display:inline-block;margin:1px}
+}
+
+/*	CODIGO #9 - ELYSIUM 2.0	*/
+.elysium2{display:flex;flex-direction:column;width:770px;border-radius:10px;overflow:hidden}
+.Elysiummain{width:770px;background:#000;padding:40px;} 
+.Elysiummain2{width:770px!important;height:300px;background-size:cover!important}
+.Elytitle2{font-family: Galins;color: #fff;text-align: center;margin-top: 10px;font-size: 25px;line-height:30px} .Elytitle2 e{font-size:11px;background:#446d85;padding:5px;font-family:Poppins}
+.ElyText2{padding:5px;color:#fff;text-align:justify;font-family:Poppins;font-size:14px;line-height:17px}
+.ElyText2 e{font-size:11px;background:#446d85;padding:2px 5px;border-radius:4px}
+.ElyData2{width: 770px!important;height: 300px;display: flex; background: linear-gradient(0deg, rgba(0,0,1,1) 0%, rgba(0,0,0,0.30) 80%);} 
+.ele2{align-self:last baseline;width: 350px;padding:20px; height: auto;font-size:20px;line-height:25px;font-family:'Galins';color:#fff;text-align:center} 
+.ele2 e{font-size:11px;background:#446d85;padding:5px;border-radius:10px;display:inline-block;margin:1px;font-family:Poppins}
+/*	CODIGO #10 - WARRIOR	*/
+.Warri { padding: 20px; width: 770px }
+.Warri h { font-size: 40px; line-height: 20px!important; font-family: Bebas neue; display: block }
+.Warri sub { font-family: poppins; font-size: 12px; display: block; font-style: italic; color: #ccc; }
+.Warri p { font-size: 13px; border-top: 1px solid #f0d879; border-bottom: 1px solid #f0d879; padding: 10px;text-align:justify}
+.Warri dd { display: flex; margin: 3px }
+.Warri cc { padding: 5px; margin: auto; }
+#warricon{font-size: 40px; color: var(--livecolor1); margin-bottom: 10px; }
+.Warri ee { text-align: center; display: block }
+#warricon2 { font-size: 20px; color: var(--livecolor1) }
+/*	CODIGO #11 - WARRIOR 2	*/
+.Warri2 {margin:0 auto;padding: 30px; width: 662px }
+.Warri2 h { font-size: 40px; line-height: 20px!important; font-family: Bebas neue; display: block }
+.Warri2 sub { font-family: poppins; font-size: 12px; display: block; font-style: italic; color: #ccc; }
+.Warri2 p { font-size: 13px; border-top: 1px solid #f0d879; border-bottom: 1px solid #f0d879; padding: 10px;text-align:justify}
+.Warri2 dd { display: flex; margin: 1px; border-bottom: 1px solid #f0d879 }
+.Warri2 cc { padding: 5px; margin: auto; }
+#warricon3 { font-size: 40px; color: var(--livecolor1); margin-bottom: 10px; }
+.Warr2i ee { text-align: center; display: block }
+#warricon4 { font-size: 20px; color: var(--livecolor1) }
+.Warri2 img { width: 600px; height: 300px }
+.warriorima { width: 600px; height: 300px; display: block; background-size: contain; background-repeat: no-repeat; }
+/*	CODIGO #12 - TALK	*/
+.talking { width: auto; padding: 20px; }
+.TalkT1 { ;font-family: 'Vidaloka', serif; font-size: 40px; text-align: right; font-style: italic; line-height: 80% }
+.TalkT2 { font-size: 10px; font-family: calibri; text-transform: uppercase; letter-spacing: 1px; margin-top: -25px; text-align: left; padding-left: 60px; }
+.Talktxt { font-family: calibri; font-size: 15px; padding: 30px 20px 0px 50px; text-align: justify; line-height: 115%; }
+
+/*	CODIGOS STELLARION	*/
+.stellarion {background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 110%; background-position: 470px -100px; background-repeat: no-repeat; }
+.stellarion2 { background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 100%; background-position: -500px 00%; background-repeat: no-repeat; }
+.stellh { width: 1060px; padding: 20px; display: flex; align-items: center; }
+.phtitle { font-size: 40px; font-family: Galins; white-space: nowrap; position: relative; } 
+.phtitlect { display: flex; align-items: center; flex-grow: 1; } 
+.phtitle { font-size: 40px; font-family: Galins; white-space: nowrap; } 
+.phtitlect::after { content: ""; display: block; flex-grow: 1; height: 1px; background-color: white; margin-left: 40px; }
+.stellh i { font-size: 50px !important; margin-left: 40px; } 
+.stellarionp { width: 1060px; padding: 10px; display: flex; height: 500px; } 
+.stellarionp1 { width: 350px } 
+.stellarionp3 { background: rgba(0,0,0,0.2); width: 350px; height: 480px; padding: 20px } 
+.stellarionp3 dd { display: block; padding: 5px; border-bottom: 1px dotted #fff } 
+.stellarionp2 { background: rgba(0,0,0,0.2); width: 340px; padding: 10px; height: 480px; }
+.stellap2 { font-size: 25px; font-family: Galins } 
+.stellaptxt { height: 400px; overflow: auto; padding: 10px;font-size:13px;line-height:15px} 
+.strelations { width: 1080px; padding: 10px; display: flex; height: 280px; overflow: auto; flex-flow: wrap; align-items: center; justify-content: center; } 
+.border-container { position: relative; width: 150px; height: 150px; border-radius: 50%; background: url('https://images2.imgbox.com/db/9a/A54Ln9wn_o.png') no-repeat center center; background-size: cover; margin-bottom: -25px!important } 
+.stellimg { width: 120px; height: 120px; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } 
+.stella-card { background-color: rgba(0,0,0,0.5); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); overflow: hidden; width: 280px; height: 220px; text-align: center; margin: 9px } 
+.stllccont { position: relative; width: 120px; height: 120px; border-radius: 50%; background: url('https://images2.imgbox.com/db/9a/A54Ln9wn_o.png') no-repeat center center; background-size: cover; margin: 0 auto; margin-top: 20px; margin-bottom: -20px } 
+.stellimg { width: 100px; height: 100px; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } .stella-info { padding: 10px; } 
+.stella-info h2 { font-size: 18px; color: #fff; margin: 10px 0 5px 0; font-family: Galins; border-bottom: 1px dotted #fff } 
+.stella-info p { font-size: 13px; font-family: calibri; line-height: 14px } 
+.stellchro { height: 400px; padding: 10px; overflow: auto } 
+.stellatime { width: 1000px; padding: 10px; display: flex; flex-direction: column; align-items: center; position: relative; heidh} .stellatime: :before { content: ''; position: absolute; left: 5%; width: 1px; height: 100%; background-color: #47403e; } 
+.stellaevent { display: flex; flex-direction: column; align-items: flex-start; width: 94%; padding: 20px 40px; margin: -2px 5px -2px 30px; border-left: 4px solid #47403e; background: rgba(0, 0, 0, 0.3); border-radius: 8px; position: relative; } 
+.stellaevent::before { content: ''; position: absolute; left: -21px; top: 45px; width: 17px; height: 2px; background-color: #47403e; } 
+.stellaevent date { font-size: 18px; color: #fff; margin-bottom: 10px; font-family: Galins; border-bottom: 1px dotted #fff; display: block } .stellaevent stcont { font-size: 14px; color: #ccc; line-height: 1.5; font-family: Arial, sans-serif; } 
+.stellaevent a { color: var(--white)!important } 
+
+.light-mode .stellarion{background-image: url(https://images2.imgbox.com/79/ed/tiulSDUS_o.png);}
+.light-mode .stellarion2{background-image: url(https://images2.imgbox.com/79/ed/tiulSDUS_o.png);}
+.light-mode .phtitlect::after { background-color: black } 
+.light-mode .stella-card { background-color: rgba(222,165,151,0.2); box-shadow: none } 
+.light-mode .stellarionp3, .light-mode .stellarionp2 { background-color: rgba(222,165,151,0.2) } 
+.light-mode .stellaevent { background-color: rgba(222,165,151,0.2); box-shadow: none } 
+.light-mode .stellaevent date { color: #000; border-bottom: 1px dotted #000 } 
+.light-mode .stellaevent stcont { color: #000 } 
+.light-mode .stellarionp3 dd { border-bottom: 1px dotted #000 } 
+.light-mode .stella-info h2 { color: #000; border-bottom: 1px dotted #000 }
+
+/*TABLA ROL 1*/
+.stella { background-blend-mode: darken;background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 110%;background-position: 400px -100px; background-repeat: no-repeat; padding-bottom: 20px } 
+.stellatext {background: rgba(0, 0, 0, 0.2);padding: 20px;margin: 0px 20px 20px 20px;text-align:justify;font-size:14px;line-height:18px} 
+.stellaicons { font-family: times; font-size: 10px; text-transform: uppercase; padding-left: 20px; position: relative; top: -20px } 
+.stellaicons i { color: #fff } 
+.light-mode .stellatext { background: rgba(255,255,255,0.1) }
+/*TABLA ROL 2*/
+.stella2 { background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 110%; background-position: 380px -100px; background-repeat: no-repeat; padding-bottom: 20px; width: 770px } 
+.stellatxt2 {width: 700px;background: rgba(0, 0, 0, 0.2);padding: 25px;margin: 0px 25px 25px 25px;text-align:justify;font-size:14px;line-height:18px} 
+.stellai { font-family: times; font-size: 10px; text-transform: uppercase; padding-left: 20px; position: relative; top: -20px }
+ .stellai i { color: #fff } 
+ .light-mode .stellatxt2 { background: rgba(255,255,255,0.1) } 
+ .stella2 stellaimg1 {width: 700px;background-size:cover;height: 250px;display: inline-block;margin-left: 25px}
+/*TABLA ROL 3*/
+.stella3 { background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 110%; background-position: 380px -70px; background-repeat: no-repeat; padding-bottom: 20px; width: 770px } 
+.stellatxt3 {width: 400px;height: 600px;overflow: auto;background: rgba(0, 0, 0, 0.2); padding: 20px;display: inline-block;text-align:justify;font-size:13px;line-height:18px;} 
+.stellai { font-family: times; font-size: 10px; text-transform: uppercase; padding-left: 20px; position: relative; top: -20px } 
+.stellai i { color: #fff }
+.stellaimg2 { display: inline-block; padding-left: 20px } 
+.light-mode .stellatxt3 { background: rgba(255,255,255,0.1) }
+/*Extras Stellarion baul*/
+.stella3 stellaimg {width: 300px;height: 600px;background-size:cover;display: inline-block} 
+.sclosed { display: flex; flex-direction: column; align-items: flex-start; width: 94%; padding: 20px 40px; margin: 1px 5px 3px 35px; border-left: 4px solid var(--leyenda2); background: rgba(0, 0, 0, 0.3); border-radius: 8px; position: relative; } 
+.Stellarion2 { background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 110%; background-position: 325px -40px; background-repeat: no-repeat; padding: 15px; width: auto; } 
+.S2head { display: flex; align-items: center; color: var(--stellarion); gap: 20px; margin-top: 5px } 
+.Aname { font-family: Vidaloka; white-space: nowrap; font-size: 40px; } 
+.Sline { flex-grow: 1; height: 1px; background-color: var(--stellarion); } 
+#aleicon1 { font-size: 40px } 
+.Stelladata { display: flex; flex-direction: row; flex-wrap: wrap; gap: 0px; border-radius: 2px; color: #e0e6f0; font-family: 'serif'; width: auto; height: 400px; margin: auto; justify-content: center; overflow: hidden } 
+.datasec { flex: 1 1 110px; background: rgba(0, 0, 0, 0.5); padding: 15px; border-radius: 2px; backdrop-filter: blur(1px); display: flex; flex-direction: column; justify-content: center; height: 400px; width: 200px; } 
+.datasecimg {width: 250px;height: 400px;border-radius: 2px; object-fit: cover; } 
+.datasec h3 {text-align: center;font-family: Galins; margin-top: 0; font-size: 22px!important;border-bottom: 1px solid var(--stellarion); padding-bottom: 5px;margin-bottom: 3px;color: var(--stellarion2);background:none!important;border-radius: 0!important; } 
+.datasec ul {padding-left: 5px;margin-bottom: -15px!important;margin-left: -5px} 
+.datasec b,.datasec strong { color: var(--stellarion2) } 
+.stext1 { font-family: calibri; font-size: 14px; line-height: 18px; padding: 10px; height: 90%; display: block; text-align: justify; color: #eee; overflow: auto } 
+.museplayer { position: relative; width: 345px; height: 50px; background: linear-gradient(to right, #1e1e2f, var(--stellarion)); border-radius: 20px; overflow: hidden; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; } 
+.miconito { position: absolute; z-index: 2; pointer-events: none; opacity: 1; transition: opacity 0.3s ease; } #audplay { width: 100%; height: 46px; background-color: transparent; } 
+.museplayer audio { background-color: #000; position: absolute; width: 100%; height: 100%; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; } .museplayer:hover audio { opacity: 1; pointer-events: auto; } 
+.museplayer:hover .miconito { opacity: 0; } .museplayer audio::-webkit-media-controls-panel { background: black; color: white; } 
+.museplayer audio::-webkit-media-controls-play-button, .museplayer audio::-webkit-media-controls-current-time-display, .museplayer audio::-webkit-media-controls-time-remaining-display, .museplayer audio::-webkit-media-controls-timeline, .museplayer audio::-webkit-media-controls-mute-button,.museplayer audio::-webkit-media-controls-volume-slider { filter: invert(1); /* hace los íconos blancos */}
+/*************** SECCIÓN RELACIONES ****************/
+.relagrid { display: flex; flex-wrap: wrap; gap: 5px; justify-content: space-between; padding: 5px; height: 220px; overflow: auto; }
+/* Tarjeta de relación */
+.scard { background: rgba(0, 0, 0, 0.4); border-radius: 8px; width: 280px; padding: 20px; text-align: center; color: #e0e6f0; font-family: 'Vidaloka',serif; position: relative; overflow: hidden; }
+.relaimg { position: relative; width: 100px; height: 100px; border-radius: 50%; overflow: visible; flex-shrink: 0; margin: 0 auto }
+
+/* Imagen real */
+.relaimg img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; position: relative; z-index: 1; }
+
+/* Contenedor de estrellas orbitando */
+.orbital-stars { position: absolute; border-radius: 50%; top: 50%; left: 50%; width: 100px; /* mayor que la imagen */ height: 100px; transform: translate(-50%, -50%); z-index: 2; pointer-events: none; }
+/* Estrellas individuales */
+.star { position: absolute; width: 2px; height: 2px; background: #ffffff; border-radius: 50%; box-shadow: 0 0 6px #ffffffaa; top: 50%; left: 50%; transform-origin: center; }
+
+/* Animaciones de órbita */
+@keyframes orbit1 {
+0% {
+transform: rotate(0deg) translateX(55px) rotate(0deg);
+}
+
+100% {
+transform: rotate(360deg) translateX(55px) rotate(-360deg);
+}
+}
+
+@keyframes orbit2 {
+0% {
+transform: rotate(90deg) translateX(55px) rotate(0deg);
+}
+
+100% {
+transform: rotate(450deg) translateX(55px) rotate(-360deg);
+}
+}
+
+@keyframes orbit3 {
+0% {
+transform: rotate(180deg) translateX(55px) rotate(0deg);
+}
+
+100% {
+transform: rotate(540deg) translateX(55px) rotate(-360deg);
+}
+}
+
+@keyframes orbit4 {
+0% {
+transform: rotate(270deg) translateX(55px) rotate(0deg);
+}
+
+100% {
+transform: rotate(630deg) translateX(55px) rotate(-360deg);
+}
+}
+
+/* Aplicación de animaciones */ .star1 { animation: orbit1 6s linear infinite; } .star2 { animation: orbit2 8s linear infinite; } .star3 { animation: orbit3 10s linear infinite; } .star4 { animation: orbit4 12s linear infinite; }
+
+/* Información del personaje */
+.alerinf { flex-grow: 1; font-size: 14px; color: #d6d9ef; padding: 5px; } 
+.alerinf span { font-family: Vidaloka; font-size: 18px; display: block; color: #ffffff; margin-bottom: 4px; } 
+.blocki1 { font-family: serif; text-align: center; font-size: 11px; color: #eee; display: block; max-height: 50px; overflow: auto; }
+
+/******* CRONO *********/
+.Stellarion3 { background-blend-mode: darken; background-image: url(https://i.ibb.co/D1Sn2zc/constellation.png); background-size: 100%; background-position: -500px 00%; background-repeat: no-repeat; padding: 15px; width: auto; } 
+.stellchro { max-height: 400px; padding: 10px; overflow: auto; } 
+.stellatime { padding: 10px; display: flex; flex-direction: column; align-items: center; position: relative; } 
+.stellatime::before { content: ''; position: absolute; left: 5%; width: 1px; height: 100%; background-color: var(--stellarion); } 
+.steltop { display: flex; flex-direction: column; align-items: flex-start; width: 94%; padding: 20px 40px; margin: 1px 5px 3px 35px; border-left: 4px solid var(--stellarion); background: rgba(0, 0, 0, 0.3); border-radius: 8px; position: relative; } 
+.steltop::before { content: ''; position: absolute; left: -10px; top: 45px; width: 10px; height: 2px; background-color: var(--stellarion); } .steltop date { font-size: 18px; color: #fff; margin-bottom: 10px; font-family: Galins; border-bottom: 1px dotted #fff; display: block; } 
+.steltop date a { color: #fff; text-decoration: none!important; } 
+.steltop stcont { font-size: 14px; color: #ccc; line-height: 1.5; font-family: Arial, sans-serif; }
+.relagrid::-webkit-scrollbar, .stellchro::-webkit-scrollbar, .blocki1::-webkit-scrollbar, .stext1::-webkit-scrollbar {width: 5px!important;height: 6px!important;}
+.relagrid::-webkit-scrollbar-track,.stellchro::-webkit-scrollbar-track, .blocki1::-webkit-scrollbar-track, .stext1::-webkit-scrollbar-track {background: transparent;width: 8px!important;height: 6px!important;}
+
+.sclosed { display: flex; flex-direction: column; align-items: flex-start; width: 94%; padding: 20px 40px; margin: 1px 5px 3px 35px; border-left: 4px solid var(--leyenda2); background: rgba(0, 0, 0, 0.3); border-radius: 8px; position: relative; }
+.sclosed::before { content: ''; position: absolute; left: -10px; top: 45px; width: 10px; height: 2px; background-color: var(--leyenda2); }
+.sclosed date { font-size: 18px; color: #fff; margin-bottom: 10px; font-family: Galins; border-bottom: 1px dotted #fff; display: block; }
+.sclosed date a { color: #fff; text-decoration: none!important; } 
+.sclosed stcont { font-size: 14px; color: #ccc; line-height: 1.5; font-family: Arial, sans-serif; } 
+.Slegen { flex-direction: row; flex-direction: row-reverse; display: flex; gap: 1rem; font-family: sans-serif; font-size: 14px; margin-top: 1em; } .alelit { display: flex; align-items: center; gap: 10px; } 
+.Slegencolor { width: 16px; height: 16px; border-radius: 4px; display: inline-block; } 
+.light-mode .Stellarion2{background-image: url(https://images2.imgbox.com/79/ed/tiulSDUS_o.png);}
+.light-mode .Stellarion3{background-image: url(https://images2.imgbox.com/79/ed/tiulSDUS_o.png);}
+.light-mode .datasec { background: rgba(222,165,151,0.2); } 
+.light-mode .steltop { background: rgba(222,165,151,0.2) } 
+.light-mode .sclosed {background: rgba(222,165,151,0.2)} 
+.light-mode .scard {background: rgba(222,165,151,0.2);color: #000!important} 
+.light-mode .stext1 {color: #000} 
+.light-mode .blocki1 {color: #969696} 
+.light-mode .steltop date a { color: #000!important } 
+.light-mode .steltop stcont { color: #000!important } 
+.light-mode .sclosed stcont, .light-mode .sclosed date a { color: #000!important }
+.light-mode .alerinf span{color:#000}
+
+/*Relatos*/
+:root{--Taletitle:#fff;--grady2:linear-gradient(190deg, var(--darky2), var(--colory));--darky2: #1d1e22;--colory: #343d4b}.light-mode {--Taletitle:#000;--grady2:linear-gradient(190deg, var(--darky2), var(--colory));--darky2: #e2d6ea;--colory: #fff}.light-mode .Mytale{color:#000}
+
+.Talebody { background: var(--grady2); margin: auto; width: 800px; height: 450px; display: flex; border-radius: 20px; border: 1px solid var(--darky3); overflow: hidden; border: 1px solid #000 } 
+.Talecont { margin: 20px; height: 320px; color: #fff; padding: 20px 40px; } 
+.Talecont h { font-size: 30px; font-family: galins; line-height: 30px; text-align: center } 
+.boxy1 { width: 400px; height: 450px; } 
+.Mytale { height: 300px; padding: 0px 20px; font-family: calibri; text-align: justify; font-size: 13.5px; line-height: 13px; overflow: auto; } 
+.relatoimg { width: 350px; height: 450px; float: right; position: relative; left: 10px }
+
+/*	CODIGO #13 - ATLAS	*/
+:root {--atlas1: #131012;--atlas2: #1a1c1f;--atlast: #1a1c1f;--atlast2: #131012;}
+.light-mode {--atlas1: #fbebeb;--atlas2: #f0dfdf;--atlast: #f0dfdf;--atlast2: #fbebeb;}
+.light-mode .Atltxt2 cont{color:#000}
+.light-mode .Atltxt cont{color:#000}
+
+.Atlas { display: flex; width: auto; background: linear-gradient(180deg,var(--atlas2) 20%, var(--atlas1) 80%); padding: 10px; margin-top: -20px }
+.Atlas1 { height: 600px; width: 780px; padding: 60px }
+.Atlt { width: 480px; padding: 10px; background: var(--atlast); color: #fff ; font-family: 'Vidaloka', serif; text-align: right; font-size: 20px; position: relative; top: -20px; float: right; z-index: 1 }
+.Atlt span { font-size: 10px; font-family: calibri; text-transform: uppercase; letter-spacing: 1px; margin-top: -25px; text-align: left; padding-left: 60px; }
+.Atltxt { color: #eaeaea; line-height: 150%; height: 500px; padding: 60px 40px; text-align: justify; border: 1px solid #9ec3da; z-index: 0; }
+.Atltxt p { max-height: 400px; width: 510px; font-family: calibri; font-size: 15px; line-height: 130%; overflow: auto; padding: 10px; display: block }
+.Atltxt cont { max-height: 400px; width: 550px;font-family: calibri; font-size: 15px!important; line-height: 130%; overflow: auto; padding: 10px; display: block }
+.Atlmg { border: 10px solid var(--atlas1); border-radius: 100px; z-index: 2; position: relative; right: 60px; top: -70px; bottom: -40px; width: 120px; height: 120px; background-size: cover; }
+.Atlmg3 { width: 300px; height: 600px }
+.Atlas3 { display: flex; width: auto; background: linear-gradient(180deg,var(--atlas1) 30%, var(--atlas2) 80%); padding: 10px; margin-top: -20px }
+.Atlas4 { height: 600px; width: 780px; padding: 60px }
+.Atlt2 { width: 480px; padding: 10px; background: var(--atlast2); color: #fff ; font-family: 'Vidaloka', serif; text-align: left; font-size: 20px; position: relative; top: -20px; float: left; z-index: 1 }
+.Atlt2 span { font-size: 10px; font-family: calibri; text-transform: uppercase; letter-spacing: 1px; margin-top: -25px; text-align: left; padding-right: 60px; }
+.Atltxt2 { color: #eaeaea; height: 500px; padding: 60px 40px; text-align: justify; border: 1px solid #9ec3da }
+.Atltxt2 p { max-height: 400px; width: 510px; font-family: calibri; font-size: 15px; line-height: 130%; overflow: auto; padding: 10px; display: block; z-index: 1 }
+.Atltxt2 cont { max-height: 400px; width: 550px; font-family: calibri; font-size: 16px!important; line-height: 130%; overflow: auto; padding: 10px; display: block; }
+.Atlmg2 { border: 10px solid var(--atlas2); border-radius: 100px; z-index: 2; position: relative; left: 60px; top: -70px; bottom: -40px; float: right; width: 120px; height: 120px; background-size: cover; }
+
+
+/*	CODIGO #14 - NEBULA	*/
+.nebulahead { width: 600px; height: 300px; margin: auto } 
+.Nebula { width: 600px; height: 620px; background: url(https://images2.imgbox.com/20/80/Bj7MQ3YB_o.jpg); margin: auto } 
+.nebt { background: linear-gradient(90deg, rgba(15,6,40,1) 0%, rgba(10,4,26,1) 100%); display: block; padding: 30px } 
+.nebt span { font-size: 25px; line-height: 25px; font-family: Playfair Display; color: #fff; display: block } 
+.nebt sub { text-align: right; font-size: 13px; text-align: right; display: block } 
+.Nebula block { display: block; padding: 10px; font-size: 13px; font-family: Poppins; height: 380px; overflow: auto } 
+.nimg { width: 100px; height: 100px; border-radius: 100px; overflow: hidden; margin: auto; outline: dashed thin; outline-offset: 5px; outline: 3px solid #0f0628; margin-top: -10px } 
+#nebicon { font-size: 18px; line-height: 18px } 
+.nebtext { padding: 30px; } 
+.nebtext corner1 { width: 50px; height: 50px; display: block; position: absolute; border: 1px solid #523d85; border-right-color: transparent; border-bottom-color: transparent; margin: -10px 0 0 -5px; } 
+.nebtext corner2 { width: 50px; height: 50px; display: block; position: absolute; border: 1px solid #523d85; border-top-color: transparent; border-left-color: transparent; margin: -25px 0 0 505px; }
+
+/*	CODIGO #15 - HONEY FLOWER	*/
+.honeyflower { background: rgb(51, 43, 69, 0.3); width: 640px; border: 20px solid; border-image: linear-gradient(45deg, #ddb88b, #cda1a8) 1; margin: auto }
+.flower {width: 600px; padding: 25px 50px; color: #cda1a8;font-size:12px;line-height:14px }
+.flower title { display: block; font-family: Galins; font-size: 30px; text-align: center; color: #cda1a8 }
+#flowericon { font-size: 20px; display: block; width: 30px; border-radius: 50px; padding: 5px; background: #403658; margin: auto }
+.honey { width: 600px; font-size: 12px; line-height: 16px; padding: 20px; overflow: auto; font-family: Poppins }
+.flowerimg { width: 600px; height: 300px; }
+#flohead { float: right; margin-top: 5px; font-size: 15px }
+.flowerhead { width: 600px; padding: 10px; background: rgb(51, 43, 69, 0.4); font-size: 9px; text-transform: uppercase }
+#dataicon { display: inline-block; font-size: 14px!important; line-height: 12px; padding: 5px; color: #f49bc2 }
+.honeypng { overflow: hidden; }
+.honeypng img { filter: drop-shadow(0px 95px 0 #cda1a8); transform: translateY(-100px); } 
+.light-mode .honeyflower { background: rgb(206, 205, 205, 0.3) } 
+.light-mode .flowerhead { background: rgb(206, 205, 205, 0.3) } 
+.honey::-webkit-scrollbar { width: 5px!important } 
+.honey::-webkit-scrollbar-thumb { background-color: transparent; } 
+.honey::-webkit-scrollbar-track { background-color: transparent; }
+
+/*	CODIGO #16 - HUMMINGBIRD 2.0	*/
+.humming { background: rgb(51, 43, 69, 0.3); width: auto; border: 20px solid; border-image: linear-gradient(45deg, #b53812, #bba378) 1; margin: auto } 
+.sugarbird { width: 540px; padding: 20px; font-size:12px;line-height:14px} 
+.sugarbird sub { color: #bba378; display: block; text-align: center } 
+.sugarbird title { display: block; font-family: Galins; font-size: 30px; text-align: center; color: #bba378 } 
+#flowericon { font-size: 20px; display: block; width: 30px; border-radius: 50px; padding: 5px; background: #403658; margin: auto } 
+.birdtext { font-size: 12px; line-height: 16px; height: 450px!important; padding: 0px 20px 20px 20px; overflow: auto; font-family: Poppins;text-align:justify } 
+.dewimg { width: 250px; height: 600px; } 
+#flohead { float: right; margin-top: 5px; font-size: 15px } 
+.hbird { width: 100%; padding: 10px; background: rgb(51, 43, 69, 0.4); font-size: 9px; text-transform: uppercase } #sugaricon { display: inline-block; font-size: 14px!important; line-height: 12px; padding: 5px; color: #bba378 } 
+.sugarpng { overflow: hidden; margin-bottom: -5px } 
+.sugarpng img { filter: drop-shadow(0px 95px 0 #bba378); transform: translateY(-100px); } 
+.light-mode .humming { background: rgb(206, 205, 205, 0.3) } 
+.light-mode .hbird { background: rgb(206, 205, 205, 0.3) } 
+.birdtext::-webkit-scrollbar { width: 7px!important } 
+.birdtext::-webkit-scrollbar-thumb { background-color: #332b45; } 
+.birdtext::-webkit-scrollbar-track { background-color: transparent; }
+
+/*	CODIGO #16 - HUMMINGBIRD 2.0	*/
+.humming2 { background: rgb(51, 43, 69, 0.3); width: 660px; height: 676px; border: 20px solid; border-image: linear-gradient(45deg, #b53812, #bba378) 1; margin: auto; overflow: hidden } 
+.sugarbird2 { width: 320px; padding: 15px; } 
+.sugarbird2 sub { color: #bba378; line-height: 12px } 
+.sugarbird2 title { display: block; font-family: Galins; font-size: 30px; text-align: center; color: #bba378 } 
+#flowericon { font-size: 20px; display: block; width: 30px; border-radius: 50px; padding: 5px; background: #403658; margin: auto } 
+.birdtext2 { font-size: 12px; line-height: 16px; height: 500px!important; padding: 20px; overflow: auto; font-family: Poppins;text-align:justify} 
+.dewimg2 { width: 300px; height: 600px; } 
+#flohead2 { float: right; margin-top: 5px; font-size: 15px } 
+.hbird2 { width: 100%; padding: 10px; background: rgb(51, 43, 69, 0.4); font-size: 9px; text-transform: uppercase } 
+#sugaricon { display: inline-block; font-size: 14px!important; line-height: 12px; padding: 5px; color: #bba378 } 
+.sugarpng2 { overflow: hidden; width: 290px; height: 24px } 
+.sugarpng2 img { filter: drop-shadow(0px 90px 0 #bba378); transform: translateY(-90px); } 
+.light-mode .humming2 { background: rgb(206, 205, 205, 0.3) } 
+.light-mode .hbird2 { background: rgb(206, 205, 205, 0.3) } 
+.birdtext2::-webkit-scrollbar { width: 7px!important } 
+.birdtext2::-webkit-scrollbar-thumb { background-color: #332b45; } 
+.birdtext2::-webkit-scrollbar-track { background-color: transparent; }

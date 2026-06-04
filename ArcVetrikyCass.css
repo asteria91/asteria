@@ -1,0 +1,82 @@
+/*Tabla Arc*/
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Playfair+Display:ital@1&display=swap');
+.witch1{height:980px;margin-bottom:10px}
+.twitch {width: 770px;background-image:url(https://images2.imgbox.com/b7/92/U4TdhslH_o.png);background-size:cover;color: #e8e8e8;padding: 30px;overflow: hidden;}
+
+.hwitch{width: 770px;padding:30px;text-align: center;background: linear-gradient(to bottom, #282037, #171522);}
+.hwitch wsep{width:600px;height:100px;background:url(https://images2.imgbox.com/09/5a/RsDS4gH4_o.png);background-repeat: no-repeat;display:block}
+.hwitch h {display:block;line-height:40px;font-family: 'UnifrakturCook', cursive!important;font-size: 40px;color: #a994b3;margin: -80px 0px 0px 0px;}
+.hwitch sub{display:block;font-size: 13px;font-style: italic;color: #aaa;margin-top: 5px;}
+/* Cuerpo */
+.wbody{position: relative;z-index: 2;display:flex}
+.wimg {width: 300px;height: 600px;background: url(https://images2.imgbox.com/ba/db/1TSMGeir_o.png);}
+.wtext{width:400px;height:600px;padding:10px;overflow:auto;font-size:13px;line-height: 15px;text-align: justify;font-family: 'Poppins', serif;}
+.twitch wsep{width:600px;height:100px;background:url(https://images2.imgbox.com/09/5a/RsDS4gH4_o.png);background-repeat: no-repeat;display:block}
+/* Imágenes de pie */
+.wifoot{display: flex;justify-content: center;gap: 15px;margin-bottom:5px}
+.witchhov {width: 100px;height: 100px;border-radius: 50%;overflow: hidden;position: relative;border: 1px solid #333;cursor: pointer;outline: 6px double #333;border-radius: 50px;box-sizing: border-box;outline-offset: 1px;outline-offset: 0.2em;}
+.witchhov img {width: 100%;height: 100%;object-fit: cover;transition: filter 0.3s ease;}
+.witchhov:hover img {filter: brightness(0.3);}
+.light-mode .hwitch{background: linear-gradient(to bottom, #c5c1ba, #afa9a8);} .light-mode .hwitch wsep {background:url(https://images2.imgbox.com/dd/d9/xwjNmfMg_o.png);background-repeat: no-repeat;display:block} .light-mode .hwitch h{color:#000} .light-mode .hwitch sub{color:#474747}
+.light-mode .twitch{background-image: url(https://images2.imgbox.com/a1/cf/EpJ5wWLP_o.png);} .light-mode .wtext{color:#000} 
+
+/*Table Vetrik*/
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap'); 
+.trunes { width: 770px!important; height: 600px; border: 2px solid #4d392d; border-radius: 2px; display: flex; overflow: hidden; position: relative; }
+.vtrkl { width: 250px;height:600px; }
+.Vetrk { background-color:#000; background: url(https://images2.imgbox.com/00/ef/pftfSlme_o.png); flex: 1;width:auto!important;height:600px; padding: 30px 25px; color: #f4f1ec; display: flex; flex-direction: column; justify-content: center; text-shadow: 1px 1px 2px #000; }
+.Vetrk h { font-size: 30px; margin: 0 0 5px; letter-spacing: 1px; border-bottom: 1px solid #3b589c; padding-bottom: 10px; line-height:25px; display:block; width:90%;font-family: 'UnifrakturCook', cursive; }
+.Vetrk sub{ font-size:11px; text-align:left; display:block; font-family:serif;  padding-left:20px; }
+.vtxt { height:420px;overflow:auto; text-align:justify; padding:10px;font-size:14px }
+.ovtcont { position: absolute; top: 10px; right: 20px; width: 100px; height: 100px; margin-bottom: 10px }
+.vtrmini { width: 100px; height: 100px; border-radius: 50%; background-size: cover; position: relative; z-index: 2; box-shadow: 0 0 3px #f9e9b3; }
+.vorbit { position: absolute; width: 7px; height: 7px; background: url('https://images2.imgbox.com/f0/ed/JntRDPYN_o.png') no-repeat center; background-size: contain; top: 40px; left: 110px; /* posicion inicial */ animation: orbitar 7s linear infinite; transform-origin: -60px 10px; /* centro de órbita alrededor de la imagen central */ }
+
+@keyframes orbitar {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+
+/*Tabla Cassandra*/
+:root {--Casshead:linear-gradient(to bottom, #38356f, #0d1127);
+--Cassfoot:linear-gradient(to bottom, #060715, #38356f);
+--cassfcolor:#fff;
+--casstitle: #bec9ee;--casssubtitle: #dbd2f3;
+--color-text: #e0e0f8;
+--casstooltip: #ffffff;
+--cassbgimg:url(https://i.ibb.co/twqhQpDn/jellyback2.png);
+--casstbg:linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5))
+} 
+.light-mode{
+--Casshead:linear-gradient(to bottom, #aaa5c1, #b5aeae);
+--Cassfoot:linear-gradient(to bottom, #b5aeae, #aaa5c1);
+--cassfcolor:#2e2b5c;
+--cassbgimg:url(https://i.ibb.co/szjB084/jellybacklight.png);
+--casstbg:linear-gradient(to bottom, rgba(191, 181, 172, 0.1), rgba(191, 181, 172, 0.5));
+--casstitle: #2b4987;
+--casssubtitle: #595db8;}
+
+.CassandraJll { width: 770px; background-color: rgba(255, 255, 255, 0.05); background:var(--cassbgimg); background-repeat:no-repeat; background-size:cover; box-shadow: 0 0 2px rgba(173, 122, 255, 0.4); backdrop-filter: blur(6px); border-radius:10px; }
+.cdata {background: var(--Casshead); width: 770px; padding: 10px; box-sizing: border-box; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.cassgalcont { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+.cassg { display: flex; gap: 10px; justify-content: flex-start; flex-wrap: wrap; }
+.casstool { position: relative; display: inline-block; cursor: pointer; }
+.casstool img { width: 50px; height: 50px; border-radius: 100%; object-fit: cover; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+.casstool .cassttxt { visibility: hidden; width: 160px; background-color: rgba(46, 43, 92, 0.75); color: var(--casstooltip); text-align: center; padding: 8px; border-radius: 8px; position: absolute; z-index: 1; bottom: 110%; left: 50%; transform: translateX(-50%); opacity: 0; transition: opacity 0.3s ease; font-size: 14px; }
+.casstool:hover .cassttxt { visibility: visible; opacity: 1; }
+.casstitle1 { font-family:Galins; font-size: 18px; color: var(--casstitle); font-style: italic; white-space: nowrap; padding-right:10px; }
+.cbod { background:var(--casstbg); display: flex; justify-content: space-between; align-items: flex-start; }
+.cbodtitle { flex: 1; }
+.cassiejelly { font-family:Playfair display; font-size: 28px; line-height:25px; color: var(--casstitle); padding: 15px 15px 0px 15px ; }
+.csubttl { font-family:serif; font-size: 16px; color: var(--casssubtitle); margin-bottom: 12px; }
+.Casspost { font-size: 13px; line-height: 1.6; text-align: justify; padding:0px 20px; height:500px; overflow:auto;}
+.cassjell { width: 300px; height: 600px; position: relative; overflow: hidden; flex-shrink: 0; background-size:cover!important}
+.imagen-arco img { width: 300px; height: 600px; object-fit: cover; display: block; }
+.Cassfooter{ padding:20px; background: var(--Cassfoot); color:var(--cassfcolor); font-size: 14px; line-height: 1.6; text-align: center; font-family: 'Calligraphy Brilliant', sans-serif; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+.Cassfooter i{font-size:20px}
+@font-face { font-family: 'Calligraphy Brilliant'; src: url('https://dl.dropbox.com/scl/fi/lap61n7gfrbye80c0wq3i/CalligraphyBrillianRegular.woff?rlkey=qviex79je4sdf4f9jk9l6ndup&st=und5lilx&dl=0') format('woff2'), url('https://dl.dropbox.com/scl/fi/lap61n7gfrbye80c0wq3i/CalligraphyBrillianRegular.woff?rlkey=qviex79je4sdf4f9jk9l6ndup&st=und5lilx&dl=0') format('woff'); font-weight: normal; font-style: normal; }
+.callibrilli { font-family: 'Calligraphy Brilliant', sans-serif; }
