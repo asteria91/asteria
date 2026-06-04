@@ -1,0 +1,84 @@
+.Astra{font-family:times new roman;font-size:15px;line-height:18px;text-align: justify; width:600px;} .Astra strong {border-bottom:1px solid #b74c4c;padding: 3px 6px;letter-spacing: 1px;font-size: 11px;text-transform: uppercase;color:#f2f2f2} .AstraB{margin-left:30px;width:250px;height:200px} .Astra2{width:250px;position: absolute;margin-left: 340px;color:#fff;font-style: italic;font-size: 10px;text-align: center;letter-spacing: 2px;text-shadow: 1px 2px 0px #000;margin-top: -10px;}.Astra2 h1{font-family: Playfair Display;font-size: 15px!important;letter-spacing:-1px;color:#b74c4c;text-shadow: 2px 1px 0px #000;text-transform:lowercase!important;background:transparent!important;color:#fff!important} img.Union {margin-bottom:15px;display:block;width: 150px;height: 150px;border:1px solid #b74c4c;padding: 10px;border-radius: 100%;}.Star{font-family:Playfair Display;font-style:italic;font-size: 35px;color:#b74c4c;text-shadow: 2px 1px 0px #000;line-height:45px;margin-left:30px}
+.light-mode .Astra2 h1, .light-mode .Astra strong{color:#000!important}
+
+
+.One1 {width: 770px;border: 10px solid var(--main-color);padding: 20px}.Two2 {padding: 20px;background: #0a0a0a}.Two2 span {-webkit-text-stroke-width: 0}.TwoTitle {margin: 20px;font-size: 50px;line-height: 50px!important;font-family: Bebas neue;color: #0a0a0a;text-align: center;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: var(--main-color);display: inline-block}.TwoTitle i {color: var(--main-color); font-size: 15px; line-height: 10px; font-family: Bebas neue; text-align: center; display: block; -webkit-text-stroke-width: 0 }.TwoIMG { padding: 5px; border: 5px solid var(--main-color); display: inline-block; border-radius: 50%; margin-left: 40px; position: relative; top: 10px }.TwoBox { padding: 15px 100px; font-size: 12px; text-align: justify }.TwoBox i { color: var(--main-color); font-size: 15px; line-height: 10px; font-family: Bebas neue }.TwoBox::before { display: block; height: 7px; width: 100px; background: var(--main-color); margin: auto; content: ''; margin-bottom: 40px }
+.Three3 {background: #0a0a0a; padding: 5px;display: flex;justify-content: center;  align-items: center;gap: 20px; height: 100px;
+}.Three3 img {display: inline-flex;margin: 2px auto}.Four4 { background: #0a0a0a; padding: 10px; display: flex; flex-wrap: wrap }.Four4 h2 { font-size: 30px; line-height: 60px; font-family: Bebas neue; color: #0a0a0a; text-align: center; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: var(--main-color); margin-bottom: 0px!important }.Four4 span { -webkit-text-stroke-width: 0 }.Boxy4 { width: 50%; padding: 20px; font-size: 12px; line-height: 110% }
+.Histo { width: 45%; padding: 20px; font-size: 13px; line-height: 130% }.Five5 { background: #0a0a0a; padding: 25px; font-size: 13px; line-height: 130% }.Five5 h2 { color: var(--main-color); font-size: 30px; line-height: 30px; font-family: Bebas neue; text-align: center; margin-bottom: 5px!important }.Five5 h3 { color: var(--main-color); font-size: 20px; line-height: 20px; font-family: Bebas neue; text-align: center; margin-bottom: 0px!important; letter-spacing: 1px }.FourText1 { overflow: auto; max-height: 300px; padding: 10px }
+
+/*exp NPC y expediente normal*/ .Unicorn1 { width: 600px; padding: 20px; margin: 0 auto } 
+.Shiny1 { background: #000; color: #fff; } 
+.Shiny1 p { padding: 20px; min-height: 150px; max-height: 250px; overflow: auto; font-family: Poppins; font-size: 12px; line-height: 15px; color: #fff; text-align: justify } 
+.unicont { padding: 20px; font-family: Poppins; font-size: 12px; line-height: 15px; } 
+.unicont b { font-weight: 500; font-size: 10px; border-radius: 2px; padding: 2px 5px; line-height: 110%; display: inline-block; margin: 2px } 
+.Bunny1 { font-family: Bebas Neue; font-size: 30px; color: #fff; text-align: center } 
+.Carrot1 { font-family: times; font-size: 10px; color: #fff; text-align: center } 
+.Uni0 { width: 560px; height: 250px } .Uni1 { width: 560px; height: 250px; display: flex; flex-direction: column; justify-content: flex-end; background: linear-gradient(0deg,rgba(0,0,1,1) 0%,rgba(0,0,0,0.30) 80%); padding-bottom: 20px } 
+.Ferret1 { font-family: Bebas Neue; font-size: 30px; color: #fff; line-height: 35px; text-align: center } 
+.Shiny1 p::-webkit-scrollbar-track { background: #000!important } 
+.light-mode .Shiny1 { background: #d1d1d1; color: #000; } 
+.light-mode .Uni1 { background: linear-gradient(0deg,rgba(209,209,209,1) 0%,rgba(209,209,209,0.30) 80%); } 
+.light-mode .Bunny1 { color: #000 } 
+.light-mode .Carrot1 { color: #000 } 
+.light-mode .Shiny1 p { color: #000 } 
+.light-mode .Shiny1 p::-webkit-scrollbar-track { background: #d1d1d1!important }
+
+/*Tabla ambience*/
+.Boxwi1{height:140px;padding:60px 50px;display:block;margin-bottom:0px;display:flex;align-items:flex-end;flex-flow:column;z-index:10;position:relative} .Boxwi1 titl{font-size:30px;font-family:Galins;line-height:30px;color:var(--Niktitle);text-shadow:2px 0px 2px #000} .Boxwi1 sub{font-size:10px;font-family:times;color:var(--Niksub)}#NikBox{width:600px;height:300px;overflow:hidden;display:block;position: static; outline:2px solid var(--Nikbord);outline-offset: 10px;}.Nik-IB{width:600px; height:300px;background: var(--Nbackground);position:relative;top:-270px;margin-left:600px;transition: 1s ease;z-index:1;}.Nikibox1{width: 540px;height:130px;padding:20px;background:var(--Nboxt);font-family: arial;font-size:10px;line-height:11px;text-align:justify;position:relative;color:#000;left:-600px;z-index:9;transition:1.2s linear;overflow:auto;}.Nikibox1 b, .Nikibox1 strong, .Nikibox1 i, .Nikibox1 em{color: var(--Nresaltador)}#NikBox:hover .Nikibox1{transition: 1.2s linear;left:0px;}#NikBox:hover .Nik-IB{transition: 1s linear;margin-left:0px; transition-delay:2s ease;}.Nikibox1::-webkit-scrollbar {background-color: #fff;border:none;width: 4px;}.Nikibox1::-webkit-scrollbar-thumb {background-color: #d85a6d !important;border: none;height: auto;width: 5px;} .nibody{padding:5px;border:1px solid #000;border-radius:10px;display:flex;flex-wrap: wrap}
+
+ /*Tablas rol light mode*/
+/*nebula*/
+.light-mode .Nebula { background: url(https://images2.imgbox.com/48/07/hIa7e1zE_o.png) } .light-mode .nebt { background: linear-gradient(90deg, rgba(214,199,199,1) 0%, rgba(222,208,208,1) 100%) } .light-mode .nimg { outline: 3px solid #b7b3af } .light-mode corner1 { border: 1px solid #fff; border-right-color: transparent; border-bottom-color: transparent } .light-mode corner2 { border: 1px solid #fff; border-top-color: transparent; border-left-color: transparent } .Nebula block::-webkit-scrollbar { width: 5px!important } .Nebula block::-webkit-scrollbar-thumb { background-color: transparent; } .Nebula block::-webkit-scrollbar-track { background-color: transparent; }
+
+/*Stella*/
+.light-mode .stella, .light-mode .stella2, .light-mode .stella3{background-image: url(https://images2.imgbox.com/79/ed/tiulSDUS_o.png);} .light-mode .stellatext, .light-mode .stellatxt2, .light-mode .stellatxt3 {background: rgba(222, 165, 151, 0.2);}
+/*Aportes*/
+:root{--fondotablon: url(https://i.ibb.co/QDkCbvM/fondo-tablon-dark.png)}
+.Aporte{padding:30px;justify-content: center;background-image:url(https://i.ibb.co/T8xTjTp/fireback.png);border: 1px solid var(--dark1);border-radius: 10px;background-size: cover;background-color: var(--dark);background-blend-mode: difference;width:770px}.HeadyAport{position: relative;height: 250px;background: var(--fondotablon);background-color: #11111180;background-blend-mode: color-dodge;background-size: cover;border-radius: 10px;margin-top: 5px;border: 1px solid var(--dark1);} .HeadyAport h5 {font-family: var(--font1);text-align: center;font-size: 30px;line-height: 50px;padding-top: 100px;} .HeadyAport b{display: block;font-size: 10px;font-family: var(--fontgen);color: var(--accent3);letter-spacing: 1px;text-align:center;line-height:13px;padding:0px 20px}.AporCont{background: var(--dark1);border-radius: 10px;border: 1px solid var(--dark1);padding: 20px 30px;font-size: 12px;margin-top:5px} .light-mode .HeadyAport h5{color:#fff} .light-mode .HeadyAport b{color:#fff}
+
+
+/*MockFB*/
+.facebookmock { width: 1080px} 
+.fbfondo{width:1080px; height: 250px;margin-top:-20px} 
+.fb1 { width: 1080px;height:250px; background: var(--background) } .fb1 br{display:none}
+.fb2 { width: 1080px ; background: var(--dark1); padding: 10px;margin-bottom:-22px} 
+.fb2 a { color: var(--white); font-size: 18px; margin: 0px 10px; display: inline-block } 
+.fb2 u { text-decoration: none; font-size: 11px; } 
+.fbmini {margin-right: 10px; margin-top: -170px;border: 10px solid var(--dark);box-shadow: 1px 1px 3px var(--dark); width: 150px;height: 150px } 
+.fbcontent { display: flex;gap:10px; padding: 10px 20px;background:var(--grad6)} 
+.fbcontent h { background: var(--grad2); display: block; padding: 10px; font-size: 15px; font-weight: 700; color: var(--dark1) } 
+.usuario, .amigos, .fotos { width: 300px; background: var(--dark); padding: 10px } 
+.amigos, .fotos { height: 195px; overflow: auto } 
+.usuario d { display: block; padding: 5px; margin: 1px } 
+.usuario br { display: none } 
+.usuario b { color: var(--accent1) } 
+.fbphoto { margin: 5px; width: 80px; height: 80px } 
+.fbposts { width: 700px; max-height: 730px; overflow: auto; margin: 5px; padding: 10px } 
+.fbposts block { overflow: hidden; display: block; background: var(--grad4); margin: 5px } 
+.fbposts h { display: flex } 
+.fbposts char { display: block; vertical-align: middle; margin-left: 10px } 
+.fbposts b { color: var(--dark) } 
+.fbposts n { font-size: 18px; display: block; margin-top: 10px } 
+.fbposts f { font-size: 11px; display: block; color: var(--dark)} 
+.postimg { border-radius: 100%; width: 60px; height: 60px } 
+.postito { padding: 15px; font-size: 13px; text-align: justify; overflow: hidden } 
+.fbposts icons { text-align: center; font-size: 13px; color: #747474; display: block; border-top: 1px solid var(--background); border-bottom: 1px solid var(--background); padding: 10px; font-weight: 700 } 
+.fbposts icons i { margin: 0px 10px 0px 30px } 
+.fbposts like { text-align: left; font-size: 13px; color: #747474; display: block; padding: 10px; font-weight: 700 } 
+.fbposts vlike { text-align: right; font-size: 13px; color: #747474; display: block; padding: 10px; font-weight: 700 } 
+.fbmedia { border-radius: 1% } 
+.light-mode .fbcontent h { color: var(--accent1) } 
+.coimg { align-self: flex-start; border-radius: 70px; width: 70px; height: 70px } 
+.netcomment { width: 600px; display: flex; padding: 20px } 
+.ncomm { overflow: hidden; display: block; background: var(--grad4); margin: 5px; padding: 20px; border-radius: 10px } 
+.ncomm n { display: block; font-size: 16px; font-weight: 700; line-height: 18px } 
+.netreply { width: 600px; padding: 0px 10px 10px 120px; display: flex; } 
+.resp { width: 600px; display: flex; flex-grow: 2; padding: 20px; text-align: center; font-size: 10px; font-weight: 700 } 
+.resp::before { content: ""; height: 1px; width: 20%; background-color: var(--accent1); margin: 10px 10px 0px 150px; } 
+.resp-toggle { display: inline-block; cursor: pointer; color: var(--highlight); font-weight: bold; } 
+#toggle-resp ~ .rephidecito { display: none; } 
+#toggle-resp:checked ~ .rephidecito { display: block; } 
+.ncomm like, .netreply like { display: block } 
+.fb1 h { color: var(--groups); font-size: 30px; font-weight: 700; font-family: Galins; position: relative; margin-left: 180px; top: 190px; display: block; text-shadow: 1px 1px 2px #000 } 
+.wimg { width: 250px!important }
